@@ -15,9 +15,17 @@ body{
 }
 
 .btn{
+    color: crimson;
     width: 100px;
     height: 40px;
     position: absolute;
     top: 50%;
     left: 50%;
+}
+
+.btn:hover {
+    color: #121212;
+    position: relative;
+    top: 30%;
+    right: 30%;
 }
